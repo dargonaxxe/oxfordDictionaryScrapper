@@ -13,6 +13,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
     testImplementation(kotlin("test"))
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.23.7")
 }
